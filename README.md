@@ -8,4 +8,4 @@ https://tbrain.trendmicro.com.tw/Competitions/Details/30
 ![FINAL](https://github.com/IcerZMa/house_price/assets/135253587/3255e45b-325e-47d3-bff3-ba249347d061)
 
 
-此外我還有更具各個房子位置的半徑去增加data，如:半徑多少以內有幾間便利商店等等，這種資料可以明顯的反應那個位置的開發程度。
+此外我還有根據各個房子位置的半徑去增加data，如:半徑多少以內有幾間便利商店等等，這種資料可以明顯的反應那個位置的開發程度。
