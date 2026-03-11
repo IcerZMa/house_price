@@ -1,7 +1,8 @@
 # 永豐 AI GO 競賽 - 攻房戰：房價預測模型優化與資料處理策略
 
 本專案參加由永豐銀行與 T-Brain 舉辦之 [「永豐 AI GO 競賽 - 攻房戰」](https://tbrain.trendmicro.com.tw/Competitions/Details/30)。
-在 972 支參賽隊伍中，最終取得 **Private Score 8.011811（排名第 40 名，Top 5%）**。
+
+在 972 支參賽隊伍中，最終取得 **Private Score 8.011811（排名第 40 名，Top 5%）**。**競賽時間**：2023 年 9 月 - 11 月
 
 ## 核心資料處理策略
 
