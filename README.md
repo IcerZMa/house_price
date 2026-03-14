@@ -37,3 +37,23 @@
 ### 2. 權重搜尋與最終融合 (Weighted Blending)
 * **自動化權重優化**：利用驗證集進行**暴力搜尋 (Brute Force)**，找出各預測模型結果的最佳權重組合，而非單純平均。
 * **二階段融合**：將最終加權預測結果與其他穩定輸出進行二階段融合，確保模型在 Private Leaderboard 上的穩健表現。
+
+## 競賽表現 (Competition Performance)
+
+本次競賽以 **MAPE (Mean Absolute Percentage Error)** 作為評估模型優劣的方法。
+$$MAPE = \frac{1}{N} \sum_{i=1}^{N} \left| \frac{y_i - \hat{y}_i}{y_i} \right| \times 100\%$$
+
+
+| 模型版本 (Version) | MAPE (%) | 提升幅度 (Improvement) |
+| :--- | :---: | :---: |
+| 基準模型 (Baseline) | 26.8394 | - |
+| **優化後模型 (Ours)** | **8.0118** | **+70.15%** |
+註記：提升幅度是以誤差減少量相對於基準誤差計算而成
+
+此 **Baseline** 為最初自建構的隨機森林模型（Random Forest）。為了建立純粹的預算基準，**本階段資料未進行任何預處理（如缺失值填充、特徵縮放或對數轉換）**，僅進行了基本的特徵選擇與資料分割。
+
+##  Result
+
+Final Ranking: Top 40 / 972 teams
+
+![Rank](https://raw.githubusercontent.com/IcerZMa/house_price/main/Rank.png)
